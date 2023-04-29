@@ -13,39 +13,37 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/Warsaw
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Aleksy Balazinski's homepage
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: My homepage # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  This is my personal website
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://AleksyBalazinski.github.io"
 
 github:
-  username: github_username # change to your github username
-
-twitter:
-  username: twitter_username # change to your twitter username
+  username: AleksyBalazinski # change to your github username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Aleksy J. Balazinski
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://github.com/AleksyBalazinski # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/aleksy-balazinski/
+
+future: true
 
 google_site_verification: # fill in to your verification string
 
@@ -80,7 +78,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://scontent.fwaw7-1.fna.fbcdn.net/v/t1.6435-9/118296141_2669647469923220_6867287552301077907_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=EBwRy7zvycEAX-piBY1&_nc_ht=scontent.fwaw7-1.fna&oh=00_AfAO5XbijNIvJssNIGnnyIpjvbUXLvDWmvJJSJGacyL5UQ&oe=6475067F
 
 # boolean type, the global switch for TOC in posts.
 toc: true
