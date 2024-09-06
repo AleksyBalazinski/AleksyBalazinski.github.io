@@ -51,7 +51,7 @@ W ten oto sposób widzimy, że natura utrzymuje w pewnym sensie ,,idealny balans
 Wyprowadzimy teraz równanie różniczkowe, które rozwiązuje problem szukania minimum \\(S\\) dla ciała poruszającego się między punktami \\((t_1, x_1)\\) i \\((t_2, x_2)\\).
 Powiedzmy, że \\(S\\) przyjmuje minimum dla \\(x(t)\\).
 Oczekujemy więc, że dla dowolnej innej krzywej \\(\bar{x}(t)\\) ,,w bliskim otoczeniu'' \\(x(t)\\) dostaniemy \\(S[\bar{x}] \geq S[x]\\).
-Otoczenie \\(x(t)\\) możemy zdefiniować jako \\(\bar{x}(t) = x(t) + \epsilon \eta(t)\\), gdzie \\(\epsilon\\) jest małe, a \\(\eta(t)\\) jest dowolną funkcją, która zeruje się w \\(t_1\\) i \\(t_2\\)\footnote{\\(\bar{x}(t) - x(t)\\) to tzw. *wariacja} \\(x(t)\\).*;
+Otoczenie \\(x(t)\\) możemy zdefiniować jako \\(\bar{x}(t) = x(t) + \epsilon \eta(t)\\), gdzie \\(\epsilon\\) jest małe, a \\(\eta(t)\\) jest dowolną funkcją, która zeruje się w \\(t_1\\) i \\(t_2\\)[\\(\bar{x}(t) - x(t)\\) to tzw. *wariacja \\(x(t)\\).*];
 patrz poniżej.
 ![Image](../../assets/img/least-action/var.png)
 Wynika stąd, że \\(S[\bar{x}]\\) jest funkcją jednej zmiennej \\(\epsilon\\).
@@ -63,7 +63,7 @@ $$
 $$
 {% endraw %}
 czyli \\(S[\bar{x}]\\) jest proporcjonalne do \\(\epsilon\\).
-Oznacza to, że warunkiem koniecznym do tego, aby dla \\(x(t)\\) istniało minimum\footnote{Ogólnie ekstremum.} jest
+Oznacza to, że warunkiem koniecznym do tego, aby dla \\(x(t)\\) istniało minimum [Ogólnie ekstremum.] jest
 \begin{equation}
     \left(\frac{dS}{d\epsilon} \right)_0 = 0.
 \end{equation}
@@ -123,7 +123,7 @@ czyli
 \begin{equation}
     -\frac{\partial V}{\partial x} = m\ddot{x}.
 \end{equation}
-Otrzymaliśmy więc, że zasada najmniejszego działania jest równoważna II prawu dynamiki Newtona\footnote{Z pozoru tylko dla sił zachowawczych, ale tak naprawdę wszystkie siły są zachowawcze.}.
+Otrzymaliśmy więc, że zasada najmniejszego działania jest równoważna II prawu dynamiki Newtona [Z pozoru tylko dla sił zachowawczych, ale tak naprawdę wszystkie siły są zachowawcze.].
 
 
 ## Przykłady zastosowania
@@ -138,7 +138,7 @@ W tym przypadku są to \\(T = (1/2)ml^2\phi^2\\) oraz \\(V = mgl(1 - \cos(\phi))
 Po zastosowaniu równania E-L dostajemy oczekiwane równanie ruchu
 \\[\ddot{\phi} - \frac{g}{l} \sin(\phi) = 0.\\]
 
-Równania E-L możemy również użyć do rozwiązania innych problemów optymalizacyjnych polegających sprowadzających się do znalezienia ekstremum danego funkcjonału\footnote{Funkcjonałem nazywam tutaj ,,funkcję funkcji'' postaci \\(\int_{t_1}^{t_2}F(x,\dot{x}, t) dt\\), gdzie \\(x = x(t)\\).} przy określonych ,,warunkach brzegowych''.
+Równania E-L możemy również użyć do rozwiązania innych problemów optymalizacyjnych polegających sprowadzających się do znalezienia ekstremum danego funkcjonału [Funkcjonałem nazywam tutaj ,,funkcję funkcji'' postaci \\(\int_{t_1}^{t_2}F(x,\dot{x}, t) dt\\), gdzie \\(x = x(t)\\).] przy określonych ,,warunkach brzegowych''.
 
 Na przykład możemy określić jaki kształt powinna mieć krzywa, po której ciało pod wpływem stałej siły (siły ciężkości) stacza się w możliwie najkrótszym czasie (jest to tzw. problem brachistochrony).
 
